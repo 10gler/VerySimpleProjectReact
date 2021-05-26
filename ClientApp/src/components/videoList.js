@@ -25,7 +25,7 @@ class VideoList extends React.Component {
     }
 
     componentDidMount() {
-        var key = "AIzaSyA7riltTfgmnBGQvqApESGStVvEODTChh8";
+        var key = "Your API KEY";
         var q = "trial bike";
         var url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${q}&key=${key}`;
 
